@@ -4,7 +4,7 @@ Node Token-based Authentication REST APIs  using JSON web token.
 ## Authentication REST APIs
 * POST (sign-in)	      **/users/login**                 // Gives back a token
 * POST (sign-up)	      **/users/register**
-* GET (user profile)	  **/users/profile/id**                   // Needs json web token to authorize
+* GET (user profile)	  **/users/profile/id**            // Needs json web token to authorize
 
 Start Node Server
 - Run `npm install` to install required packages 
